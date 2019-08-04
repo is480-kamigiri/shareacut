@@ -1,0 +1,118 @@
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.masthead {
+  height: 70vh;
+  min-height: 500px;
+  /*background-image: url('https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background:rgb(211,199,183);
+}
+
+.whitebox {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.boxshadow {
+  border-radius: 5px;
+  box-shadow: 2px 8px 8px #888888;
+}
+
+.backgroundbox {
+  background-position: center;
+  background-repeat: no-repeat;
+  background:rgb(211,199,183);
+}
+
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+  color:black;
+  margin: 8px 0px;
+  font-family: Quicksand;
+  font-size:30pt;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: black;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
+
+.span4 img {
+  margin-right: 30px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+  margin-left: 30px;
+}
+
+#middle {
+  margin-right: 30px;
+}
+
+.borderless td, .borderless th, .borderless tr {
+  border: none;
+  padding:50px 50px 0px 50px;
+}
+
+
+.btn-primary.custom-btn {
+	background-color: #b30047;
+  border-color: #b30047;
+  font-size:11pt;
+  letter-spacing: 1px; 
+  text-transform:uppercase;
+  padding:5px 12px 5px 12px;
+}
+
+.headerText{
+  font-family: Quicksand;
+  font-size:40pt;
+  font-weight: bold;
+}
+
+.subHeaderText{
+  font-family: Quicksand;
+  font-size:28pt;
+}
+
+.headerBorder{
+  font-family: Quicksand;
+  font-size:35pt;
+  color:black;
+  border-bottom:6px solid #D3C7B7;
+}
+
+.navbar a {
+  color: black;
+}
+
+.sublead {
+  font-size: 1.1rem;
+  font-weight: 350;
+}
