@@ -50,7 +50,11 @@ EOF;
                     <a class="nav-link" href="contact.php">Contact</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< HEAD
                     <a class="nav-link" data-toggle="dropdown" href="#">Welcome
+=======
+                    <a class="nav-link" data-toggle="dropdown" href="#">Welcome, $username
+>>>>>>> 852cf2da9e3f706eb01b0f42d3aafced1cad75f6
                       <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a class="nav-link" href="profile.php">Profile</a></li>

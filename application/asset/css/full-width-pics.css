@@ -1,0 +1,90 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.masthead {
+  height: 70vh;
+  min-height: 500px;
+  /*background-image: url('https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background:rgb(211,199,183);
+}
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+  color:black;
+  margin: 8px 0px;
+  font-family: Quicksand;
+  font-size:30pt;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: black;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
+
+.span4 img {
+  margin-right: 30px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+  margin-left: 30px;
+}
+
+#middle {
+  margin-right: 30px;
+}
+
+.borderless td, .borderless th, .borderless tr {
+  border: none;
+  padding:50px 50px 0px 50px;
+}
+
+
+.btn-primary.custom-btn {
+	background-color: #b30047;
+  border-color: #b30047;
+  font-size:11pt;
+}
+
+.headerText{
+  font-family: Quicksand;
+  font-size:40pt;
+  font-weight: bold;
+}
+
+.headerBorder{
+  font-family: Quicksand;
+  font-size:35pt;
+  color:black;
+  border-bottom:6px solid #e6cbb3;
+}
+
+.navbar a {
+  color: black;
+}
